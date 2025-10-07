@@ -8,49 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 30% 10%;
-    --foreground: 0 0% 98%;
+    --background: 240 35% 12%;
+    --foreground: 45 25% 90%;
 
-    --card: 220 25% 14%;
-    --card-foreground: 0 0% 98%;
+    --card: 240 30% 10%;
+    --card-foreground: 45 25% 90%;
 
-    --popover: 220 25% 14%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 240 30% 10%;
+    --popover-foreground: 45 25% 90%;
 
-    --primary: 40 90% 60%;
-    --primary-foreground: 220 30% 10%;
+    --primary: 45 90% 58%;
+    --primary-foreground: 240 35% 10%;
 
-    --secondary: 220 20% 18%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 240 25% 18%;
+    --secondary-foreground: 45 20% 85%;
 
-    --muted: 220 15% 22%;
-    --muted-foreground: 220 10% 70%;
+    --muted: 240 25% 15%;
+    --muted-foreground: 45 15% 65%;
 
-    --accent: 45 100% 60%;
-    --accent-foreground: 220 30% 10%;
+    --accent: 45 90% 58%;
+    --accent-foreground: 240 35% 10%;
 
-    --accent-turquoise: 180 85% 55%;
-    --accent-coral: 350 85% 65%;
-    --accent-pearl: 40 20% 92%;
+    --accent-turquoise: 180 65% 52%;
+    --accent-coral: 350 88% 68%;
+    --accent-pearl: 45 25% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 25%;
-    --input: 220 15% 25%;
-    --ring: 45 100% 60%;
+    --border: 45 20% 25%;
+    --input: 45 20% 25%;
+    --ring: 45 90% 58%;
 
     --radius: 0.75rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(45 100% 60%), hsl(35 95% 55%), hsl(25 90% 50%));
-    --gradient-desert: linear-gradient(180deg, hsl(220 30% 10%), hsl(225 28% 12%), hsl(230 26% 14%));
-    --gradient-gold: linear-gradient(135deg, hsl(45 100% 65%), hsl(40 100% 58%), hsl(35 95% 52%));
-    --gradient-luxury: linear-gradient(135deg, hsl(45 100% 60%), hsl(180 85% 55%), hsl(350 85% 65%));
-    --gradient-sunset: linear-gradient(90deg, hsl(45 100% 60%), hsl(35 95% 58%), hsl(25 90% 56%), hsl(350 85% 65%));
-    --gradient-ocean: linear-gradient(135deg, hsl(180 85% 55%), hsl(190 80% 50%), hsl(200 75% 45%));
-    --shadow-glow: 0 0 60px hsl(45 100% 60% / 0.35);
-    --shadow-glow-turquoise: 0 0 50px hsl(180 85% 55% / 0.3);
-    --shadow-soft: 0 20px 60px hsl(0 0% 0% / 0.7);
+    --gradient-primary: linear-gradient(135deg, hsl(45 90% 58%), hsl(38 85% 55%), hsl(30 80% 52%));
+    --gradient-desert: linear-gradient(180deg, hsl(240 35% 12%) 0%, hsl(235 32% 14%) 50%, hsl(45 40% 8%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 90% 62%), hsl(40 88% 58%), hsl(35 85% 54%));
+    --gradient-luxury: linear-gradient(135deg, hsl(45 90% 58%), hsl(180 65% 52%), hsl(350 88% 68%));
+    --gradient-sunset: linear-gradient(90deg, hsl(45 90% 58%), hsl(38 85% 55%), hsl(30 80% 52%), hsl(350 88% 68%));
+    --gradient-ocean: linear-gradient(135deg, hsl(180 65% 52%), hsl(190 60% 48%), hsl(200 55% 45%));
+    --shadow-glow: 0 0 50px hsl(45 90% 58% / 0.35);
+    --shadow-glow-turquoise: 0 0 40px hsl(180 65% 52% / 0.3);
+    --shadow-soft: 0 10px 40px hsl(0 0% 0% / 0.4);
 
     --sidebar-background: 220 30% 10%;
     --sidebar-foreground: 0 0% 98%;
