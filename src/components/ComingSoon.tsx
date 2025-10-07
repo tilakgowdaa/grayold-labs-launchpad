@@ -1,7 +1,7 @@
 const ComingSoon = () => {
 
   return (
-    <div className="min-h-screen bg-gradient-desert flex items-center justify-center px-4 py-6 relative overflow-hidden">
+    <main className="min-h-screen bg-gradient-desert flex items-center justify-center px-4 py-6 relative overflow-hidden" role="main" aria-label="Grayold Labs Coming Soon Page">
       {/* Subtle Pattern Elements */}
       <div className="absolute inset-0 opacity-20">
         {[...Array(20)].map((_, i) => (
@@ -34,11 +34,11 @@ const ComingSoon = () => {
       <div className="absolute bottom-8 right-8 w-20 h-20 border-r-2 border-b-2 border-accent/20 rounded-br-xl"></div>
 
       {/* Main content */}
-      <div className="max-w-4xl mx-auto text-center relative z-10 p-4 md:p-6 lg:p-8">
+      <article className="max-w-4xl mx-auto text-center relative z-10 p-4 md:p-6 lg:p-8">
           {/* Logo/Brand - Light Theme */}
-          <div className="mb-8 animate-fade-in">
-            <div className="inline-flex items-center justify-center w-18 h-18 rounded-xl bg-accent/15 border border-accent/30 mb-6 relative shadow-md">
-              <span className="text-3xl font-bold text-accent">G</span>
+          <header className="mb-8 animate-fade-in">
+            <div className="inline-flex items-center justify-center w-18 h-18 rounded-xl bg-accent/15 border border-accent/30 mb-6 relative shadow-md" aria-label="Grayold Labs Logo">
+              <span className="text-3xl font-bold text-accent" aria-hidden="true">G</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-2 tracking-tight">
@@ -48,7 +48,7 @@ const ComingSoon = () => {
               <span className="text-foreground">OLD</span>
               <span className="text-muted-foreground font-light ml-3 text-3xl md:text-4xl lg:text-5xl">LABS</span>
             </h1>
-          </div>
+          </header>
 
           {/* Simple Divider */}
           <div className="flex items-center justify-center gap-3 mb-5 animate-fade-in-delay">
@@ -88,13 +88,13 @@ const ComingSoon = () => {
           </div>
 
           {/* Footer */}
-          <div className="mt-10 pt-6 border-t border-border/20 animate-fade-in-delay-2">
+          <footer className="mt-10 pt-6 border-t border-border/20 animate-fade-in-delay-2">
             <p className="text-xs text-muted-foreground/60">
               © 2025 Grayold Labs. All rights reserved.
             </p>
-          </div>
-      </div>
-    </div>
+          </footer>
+      </article>
+    </main>
   );
 };
 
