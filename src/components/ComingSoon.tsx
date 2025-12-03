@@ -67,26 +67,7 @@ const ComingSoon = () => {
             <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             <span className="text-sm font-semibold text-accent">Launching Soon</span>
           </div>
-
-          {/* Description - Enhanced */}
-          <p className="text-base md:text-lg text-muted-foreground/90 max-w-2xl mx-auto mb-10 animate-fade-in-delay-2 leading-relaxed">
-            Blending ancient wisdom with modern innovation. Our cutting-edge solutions
-            will transform the way you work and create.
-          </p>
-
-          {/* Feature Pills - Light Theme */}
-          <div className="flex flex-wrap gap-3 justify-center max-w-2xl mx-auto mb-8 animate-fade-in-delay-2">
-            <div className="px-6 py-2.5 rounded-full bg-accent/8 border border-accent/25 hover:bg-accent/15 hover:border-accent/40 transition-all duration-200 shadow-sm">
-              <span className="text-sm font-medium text-muted-foreground">Heritage & Innovation</span>
-            </div>
-            <div className="px-6 py-2.5 rounded-full bg-accent/8 border border-accent/25 hover:bg-accent/15 hover:border-accent/40 transition-all duration-200 shadow-sm">
-              <span className="text-sm font-medium text-muted-foreground">Desert to Digital</span>
-            </div>
-            <div className="px-6 py-2.5 rounded-full bg-accent/8 border border-accent/25 hover:bg-accent/15 hover:border-accent/40 transition-all duration-200 shadow-sm">
-              <span className="text-sm font-medium text-muted-foreground">Timeless Excellence</span>
-            </div>
-          </div>
-
+    
           {/* Footer */}
           <footer className="mt-10 pt-6 border-t border-border/20 animate-fade-in-delay-2">
             <p className="text-xs text-muted-foreground/60">
